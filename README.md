@@ -22,6 +22,8 @@ def stringFunctions(): Unit = {
   val myText = " there are too many spaces "
   println(myText.trim)
 
+  println(myText.trim.substring(3,6).charAt(0))
+
 }
 
 ```
