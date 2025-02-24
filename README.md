@@ -9,3 +9,20 @@ object hello {
 }
 
 ```
+
+```scala
+def stringFunctions(): Unit = {
+  val myPet = "Crocodile"
+  println(myPet.length)
+
+  val myAnimal = "GirAfFe"
+  println(myAnimal.toLowerCase)
+  println(myAnimal.toUpperCase)
+
+  val myText = " there are too many spaces "
+  println(myText.trim)
+
+}
+
+```
+  
