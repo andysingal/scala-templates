@@ -24,6 +24,10 @@ def stringFunctions(): Unit = {
 
   println(myText.trim.substring(3,6).charAt(0))
 
+  val apples = 3
+  val oranges = 6
+  println(s"We have ${apples + oranges} fruit")
+
 }
 
 ```
