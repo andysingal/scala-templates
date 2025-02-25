@@ -31,4 +31,30 @@ def stringFunctions(): Unit = {
 }
 
 ```
-  
+
+  ```scala
+
+import scala.io.StdIn
+@main
+def numberExercises(): Unit = {
+   val var1 = 45
+
+   println(var1.getClass)
+
+   println("Please enter a number")
+   val input = StdIn.readLine()
+   val number = input.toInt
+   val multiplier = 2.75
+   val result = number * multiplier
+   println(result.getClass)
+
+
+   println("Please enter the amount in your account: ")
+
+   //val input = StdIn.readLine()
+   //val amount = input.toDouble
+   //val amountAfter5Years = amount * 1.055 * 1.055
+   //println(s"You will have $$$amountAfter5Years")
+   
+}
+```
