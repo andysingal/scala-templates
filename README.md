@@ -73,3 +73,15 @@ try {
 println("Exception occured")
 }
 }
+```
+
+```scala
+try {
+   // try do something
+} catch {
+ case e: Exception => //if exception1 occurs, do this
+case e: Exception 2 => //if exception2 occurs, do this
+} finally {
+  // always execute this part
+}
+```
