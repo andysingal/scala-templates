@@ -58,3 +58,14 @@ def numberExercises(): Unit = {
    
 }
 ```
+
+
+```scala
+val test = StdIn.readLine()
+try {
+   println(test.toInt)
+} catch {
+  case e: Exception => {
+println(s"Cannot convert input into a number\n$(e.getLocalizedMessage}")
+}
+}
