@@ -65,6 +65,9 @@ val test = StdIn.readLine()
 try {
    println(test.toInt)
 } catch {
+  case f: IllegalStateException => {
+  println("Illegal state Exception occured")
+} 
   case e: Exception => {
 println(s"Cannot convert input into a number\n$(e.getLocalizedMessage}")
 }
