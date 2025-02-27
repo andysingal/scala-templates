@@ -110,3 +110,19 @@ def ifStatement(): Unit = {
      println("You have insufficient funds")
 }
 ```
+
+```scala
+def ifStatement(): Unit = {
+  val petStore = List("cat", "dog", "rabbit")
+  val hascatfood = true
+
+  if (petStore.contains("cat"))
+    if (hascatfood)
+       println("Buy cat and cat food")
+    else
+       println("Buy cat")
+       
+  else
+    println("Ask pet store to get cat")
+}
+```
