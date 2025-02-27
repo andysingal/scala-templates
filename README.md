@@ -85,3 +85,28 @@ case e: Exception 2 => //if exception2 occurs, do this
   // always execute this part
 }
 ```
+
+## if-else condition
+```scala
+def ifStatement(): Unit = {
+  //val night = true
+
+  //if (night)
+   // println("Sleep, it night time")
+  //else
+  //  println("Be active, its day time")
+
+  println("Please input the funds amount")
+  var clientFunds = StdIn.readLine().toInt
+  val price = 50
+  var clientProducts = 0
+
+  if (clientFunds >= price)
+         clientFunds -= price
+         clientProducts += 1
+         println(s"You have purchased $clientProducts products") 
+         println(s"You have $$$clientFunds")
+  else
+     println("You have insufficient funds")
+}
+```
