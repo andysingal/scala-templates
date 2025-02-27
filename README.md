@@ -126,3 +126,42 @@ def ifStatement(): Unit = {
     println("Ask pet store to get cat")
 }
 ```
+
+```scala
+import scala.io.StdIn
+
+def ifStatementPractice(): Unit = {
+  println("Do you have the keys? (true/false)")
+  val hasKeys = StdIn.readLine().toBoolean
+
+  if (hasKeys)
+      println("Start the car")
+  else
+     println("Cannot start the car without keys")
+
+```
+
+
+```scala
+import scala.io.StdIn
+
+def ifStatementPractice(): Unit = {
+   println("Please input the current hour (0-23))")
+   val input = StdIn.readline()
+   try {
+     val hour = input.toInt
+     if (hour < 12)
+        println(s"It's $hour AM")
+     else if (hour == 12)
+        println(s"It's $hour PM")
+} catch {
+  case e: NumberFormatException =>
+    println("Cannot read that number")
+    e.printStackTrace()
+}
+}
+```
+
+
+   
+   
