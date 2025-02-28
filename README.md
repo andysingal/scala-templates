@@ -162,6 +162,13 @@ def ifStatementPractice(): Unit = {
 }
 ```
 
-
+```scala
+def personalizedgreeting(person: String): String = {
+   person(0) match 
+      case 'A' => s"Are you ok $person"
+      case 'W' => s"What's up $person"
+      case _ => s"Hi $person"
+}
+```
    
    
