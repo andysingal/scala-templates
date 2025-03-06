@@ -1,3 +1,5 @@
+This Scala code defines a simple JsonConverter object that provides a toJson function for converting Scala Map and List data structures into JSON strings. Let's break down the code step by step:
+
 import scala.collection.mutable.ListBuffer
 
 object JsonConverter {
